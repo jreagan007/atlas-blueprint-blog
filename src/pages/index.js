@@ -25,7 +25,7 @@ export default function Page() {
   const posts = usePosts({
     first: postsPerPage,
     where: {
-      categoryName: 'uncategorized',
+      categoryName: 'news',
     },
   });
   const testimonials = useQuery().testimonials();
@@ -49,12 +49,12 @@ export default function Page() {
         <div className="container">
           <section className="hero text-center">
             <Heading className={styles.heading} level="h1">
-              Welcome to MesoWatch
+              Providing In-Depth News &amp; Data on Mesothelioma &amp; Asbestos
             </Heading>
             <p className={styles.description}>
-              Mesowatch's mission serves as an industry watchdog and advocates for patients and families 
-              affected by asbestos by providing reliable and up-to-date news stories and information on 
-              asbestos and mesothelioma.{' '}
+              Our blog provides a timely voice for cancer patients, caregivers, and those seeking information about 
+              mesothelioma and asbestos. By providing relevant news, personal stories, and practical insights, 
+              we help spread awareness and nurture hope, with the goal of one-day eliminating mesothelioma.{' '}
             </p>
             <div className={styles.actions}>
               <Button styleType="secondary" href="/contact-us">
