@@ -1,6 +1,6 @@
 import { client } from 'client';
 
-import { PostComponent } from './posts/[postSlug]';
+import { PostComponent } from './[postSlug]';
 import { PageComponent } from './[...pageUri]';
 
 export default function Preview() {
