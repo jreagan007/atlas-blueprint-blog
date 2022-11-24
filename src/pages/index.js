@@ -49,11 +49,12 @@ export default function Page() {
         <div className="container">
           <section className="hero text-center">
             <Heading className={styles.heading} level="h1">
-              Welcome to your Blueprint
+              Welcome to MesoWatch
             </Heading>
             <p className={styles.description}>
-              Achieve unprecedented performance with modern frameworks and the
-              world&apos;s #1 open source CMS in one powerful headless platform.{' '}
+              Mesowatch's mission serves as an industry watchdog and advocates for patients and families 
+              affected by asbestos by providing reliable and up-to-date news stories and information on 
+              asbestos and mesothelioma.{' '}
             </p>
             <div className={styles.actions}>
               <Button styleType="secondary" href="/contact-us">
